@@ -1,0 +1,340 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService\\ASMPT.ApplicationService.csproj": {}
+  },
+  "projects": {
+    "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService.Contract\\ASMPT.ApplicationService.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService.Contract\\ASMPT.ApplicationService.Contract.csproj",
+        "projectName": "ASMPT.ApplicationService.Contract",
+        "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService.Contract\\ASMPT.ApplicationService.Contract.csproj",
+        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\ASMPT.Data.Contract.csproj": {
+                "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\ASMPT.Data.Contract.csproj"
+              },
+              "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj": {
+                "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService\\ASMPT.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService\\ASMPT.ApplicationService.csproj",
+        "projectName": "ASMPT.ApplicationService",
+        "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService\\ASMPT.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService.Contract\\ASMPT.ApplicationService.Contract.csproj": {
+                "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.ApplicationService.Contract\\ASMPT.ApplicationService.Contract.csproj"
+              },
+              "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data\\ASMPT.Data.csproj": {
+                "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data\\ASMPT.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\ASMPT.Data.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\ASMPT.Data.Contract.csproj",
+        "projectName": "ASMPT.Data.Contract",
+        "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\ASMPT.Data.Contract.csproj",
+        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj": {
+                "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data\\ASMPT.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data\\ASMPT.Data.csproj",
+        "projectName": "ASMPT.Data",
+        "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data\\ASMPT.Data.csproj",
+        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\ASMPT.Data.Contract.csproj": {
+                "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Data.Contract\\ASMPT.Data.Contract.csproj"
+              },
+              "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj": {
+                "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj",
+        "projectName": "ASMPT.Domain",
+        "projectPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\ASMPT.Domain.csproj",
+        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPT.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

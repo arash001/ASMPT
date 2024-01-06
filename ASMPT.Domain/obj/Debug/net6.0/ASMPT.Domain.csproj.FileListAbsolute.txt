@@ -1,0 +1,35 @@
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.deps.json
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.csproj.AssemblyReference.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.AssemblyInfoInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.AssemblyInfo.cs
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.csproj.CoreCompileInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\refint\ASMPT.Domain.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ref\ASMPT.Domain.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.deps.json
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.csproj.AssemblyReference.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.AssemblyInfoInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.AssemblyInfo.cs
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.csproj.CoreCompileInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\refint\ASMPT.Domain.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ref\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.deps.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\bin\Debug\net6.0\ASMPT.Domain.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.AssemblyInfoInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.AssemblyInfo.cs
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.csproj.CoreCompileInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\refint\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ref\ASMPT.Domain.dll

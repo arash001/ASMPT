@@ -1,0 +1,51 @@
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.deps.json
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Domain.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Domain.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.AssemblyReference.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.AssemblyInfoInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.AssemblyInfo.cs
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.CoreCompileInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.CopyComplete
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\refint\ASMPT.ApplicationService.Contract.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ref\ASMPT.ApplicationService.Contract.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.deps.json
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Domain.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Domain.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.AssemblyReference.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.AssemblyInfoInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.AssemblyInfo.cs
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.CoreCompileInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.CopyComplete
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\refint\ASMPT.ApplicationService.Contract.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ref\ASMPT.ApplicationService.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.deps.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.ApplicationService.Contract.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\bin\Debug\net7.0\ASMPT.Domain.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.AssemblyReference.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.AssemblyInfoInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.AssemblyInfo.cs
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.CoreCompileInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.csproj.CopyComplete
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\refint\ASMPT.ApplicationService.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ref\ASMPT.ApplicationService.Contract.dll

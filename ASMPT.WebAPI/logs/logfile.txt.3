@@ -1,0 +1,14 @@
+2023-12-09 12:58:07,165  INFO Microsoft.Hosting.Lifetime.RunInternal [0] - MESSAGE: Content root path: D:\Git\ASMTP\ASMPT.WebAPI
+ 2023-12-09 13:01:33,314  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: https://localhost:7258
+ 2023-12-09 13:01:34,435  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5239
+ 2023-12-09 13:01:35,090  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-12-09 13:01:37,376  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2023-12-09 13:01:38,315  INFO Microsoft.Hosting.Lifetime.RunInternal [0] - MESSAGE: Content root path: D:\Git\ASMTP\ASMPT.WebAPI
+ 2023-12-09 13:02:19,499 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HMVOLQB8VRHM", Request id "0HMVOLQB8VRHM:00000003": An unhandled exception was thrown by the application.
+ System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(ReadOnlyMemory`1 source, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)

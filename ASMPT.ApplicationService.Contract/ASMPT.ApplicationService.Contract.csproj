@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASMPT.Data.Contract\ASMPT.Data.Contract.csproj" />
+    <ProjectReference Include="..\ASMPT.Domain\ASMPT.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

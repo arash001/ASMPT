@@ -1,0 +1,12 @@
+2023-12-06 23:34:09,515  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5239
+ 2023-12-06 23:34:09,574  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-12-06 23:34:09,604  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2023-12-06 23:34:09,625  INFO Microsoft.Hosting.Lifetime.RunInternal [0] - MESSAGE: Content root path: D:\Git\ASMTP\ASMPT.WebAPI
+ 2023-12-06 23:36:17,522  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[Surename], [b].[Id], [b].[AuthorId], [b].[ISBN], [b].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Books] AS [b] ON [a].[Id] = [b].[AuthorId]
+ORDER BY [a].[Id]
+ 2023-12-06 23:48:58,429  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: https://localhost:7258
+ 2023-12-06 23:48:58,697  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5239
+ 

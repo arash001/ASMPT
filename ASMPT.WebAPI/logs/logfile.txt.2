@@ -1,0 +1,11 @@
+2023-12-09 13:04:12,799  INFO WebAPI.Controllers.StudentController.MoveNext [81] - MESSAGE: Start GetStudents ...
+ 2023-12-09 13:04:12,791  INFO WebAPI.Controllers.StudentController.MoveNext [81] - MESSAGE: Start GetStudents ...
+ 2023-12-09 13:04:23,483  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (90ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[AddressId], [s].[Email], [s].[Name], [s].[Surename], [a].[Id], [a].[City], [a].[HouseNumber], [a].[PostalCode], [a].[Street]
+FROM [Students] AS [s]
+LEFT JOIN [Address] AS [a] ON [s].[Id] = [a].[Id]
+ 2023-12-09 13:04:23,491  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (220ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[AddressId], [s].[Email], [s].[Name], [s].[Surename], [a].[Id], [a].[City], [a].[HouseNumber], [a].[PostalCode], [a].[Street]
+FROM [Students] AS [s]
+LEFT JOIN [Address] AS [a] ON [s].[Id] = [a].[Id]
+ 

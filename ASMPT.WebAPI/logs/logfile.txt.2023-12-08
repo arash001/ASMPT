@@ -1,0 +1,6 @@
+2023-12-08 01:47:00,702  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: https://localhost:7258
+ 2023-12-08 01:47:01,240  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5239
+ 2023-12-08 01:47:01,338  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-12-08 01:47:01,383  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2023-12-08 01:47:01,414  INFO Microsoft.Hosting.Lifetime.RunInternal [0] - MESSAGE: Content root path: D:\Git\ASMTP\ASMPT.WebAPI
+ 

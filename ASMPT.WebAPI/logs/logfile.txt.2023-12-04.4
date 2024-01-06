@@ -1,0 +1,18 @@
+2023-12-04 00:26:56,915  INFO WebAPI.Controllers.BorrowController.CreateBorrow [25] - MESSAGE: Start to call Get Method inBorrowController
+ 2023-12-04 00:27:05,655  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (87ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[AuthorId], [b].[ISBN], [b].[Title], [a].[Id], [a].[Name], [a].[Surename]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+WHERE [b].[Id] = @__id_0
+ 2023-12-04 00:27:10,182  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (2,846ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AddressId], [s].[Email], [s].[Name], [s].[Surename], [a].[Id], [a].[City], [a].[HouseNumber], [a].[PostalCode], [a].[Street]
+FROM [Students] AS [s]
+LEFT JOIN [Address] AS [a] ON [s].[Id] = [a].[Id]
+WHERE [s].[Id] = @__id_0
+ 2023-12-04 00:27:14,574  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Borrows] ([BookId], [EndDate], [StartDate], [StudentId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+ 

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NZePvGP5FavkdAOLmQiAzi3wHoE3adU9T/5BAsuJI5r56x2F7Sqg1afHGGEcIjfJ+Qg3QF08brG195Q3p9KT2w==",
+  "success": true,
+  "projectFilePath": "D:\\Git\\Arash-Asmtp\\ASMTP\\ASMPTUIWinForm\\ASMPTUIWinForm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Developer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

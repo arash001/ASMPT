@@ -1,0 +1,15 @@
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\bin\Debug\net7.0\ASMPT.Domain.Test.Utility.deps.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\bin\Debug\net7.0\ASMPT.Domain.Test.Utility.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\bin\Debug\net7.0\ASMPT.Domain.Test.Utility.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\bin\Debug\net7.0\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\bin\Debug\net7.0\ASMPT.Domain.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.csproj.AssemblyReference.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.AssemblyInfoInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.AssemblyInfo.cs
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.csproj.CoreCompileInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.csproj.CopyComplete
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\refint\ASMPT.Domain.Test.Utility.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ref\ASMPT.Domain.Test.Utility.dll

@@ -1,0 +1,51 @@
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.deps.json
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Domain.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Domain.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.AssemblyReference.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.AssemblyInfoInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.AssemblyInfo.cs
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.CoreCompileInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.CopyComplete
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\refint\ASMPT.Data.XML.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ref\ASMPT.Data.XML.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.deps.json
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Domain.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Domain.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.AssemblyReference.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.AssemblyInfoInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.AssemblyInfo.cs
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.CoreCompileInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.CopyComplete
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\refint\ASMPT.Data.XML.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ref\ASMPT.Data.XML.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.deps.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.XML.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\bin\Debug\net7.0\ASMPT.Domain.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.AssemblyReference.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.AssemblyInfoInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.AssemblyInfo.cs
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.CoreCompileInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.csproj.CopyComplete
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\refint\ASMPT.Data.XML.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ref\ASMPT.Data.XML.dll

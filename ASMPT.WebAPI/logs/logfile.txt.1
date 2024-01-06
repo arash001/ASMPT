@@ -1,0 +1,11 @@
+2023-12-09 13:06:59,709  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: https://localhost:7258
+ 2023-12-09 13:07:00,472  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://localhost:5239
+ 2023-12-09 13:07:01,089  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-12-09 13:07:02,647  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2023-12-09 13:07:03,206  INFO Microsoft.Hosting.Lifetime.RunInternal [0] - MESSAGE: Content root path: D:\Git\ASMTP\ASMPT.WebAPI
+ 2023-12-09 13:08:06,501  INFO WebAPI.Controllers.StudentController.MoveNext [105] - MESSAGE: Start GetStudents ...
+ 2023-12-09 13:08:15,056  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (169ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[AddressId], [s].[Email], [s].[Name], [s].[Surename], [a].[Id], [a].[City], [a].[HouseNumber], [a].[PostalCode], [a].[Street]
+FROM [Students] AS [s]
+LEFT JOIN [Address] AS [a] ON [s].[Id] = [a].[Id]
+ 

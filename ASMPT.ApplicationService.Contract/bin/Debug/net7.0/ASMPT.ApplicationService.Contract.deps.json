@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ASMPT.ApplicationService.Contract/1.0.0": {
+        "dependencies": {
+          "ASMPT.Data.Contract": "1.0.0",
+          "ASMPT.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ASMPT.ApplicationService.Contract.dll": {}
+        }
+      },
+      "ASMPT.Data.Contract/1.0.0": {
+        "dependencies": {
+          "ASMPT.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ASMPT.Data.Contract.dll": {}
+        }
+      },
+      "ASMPT.Domain/1.0.0": {
+        "runtime": {
+          "ASMPT.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASMPT.ApplicationService.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASMPT.Data.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASMPT.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

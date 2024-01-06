@@ -1,0 +1,57 @@
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.deps.json
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.runtimeconfig.json
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Domain.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Domain.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.AssemblyReference.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.AssemblyInfoInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.AssemblyInfo.cs
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.CoreCompileInputs.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.CopyComplete
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\refint\ASMPT.Data.dll
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.pdb
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.genruntimeconfig.cache
+C:\Programming\Personal\Projects\ASMTP\ASMPT.Data\obj\Debug\net7.0\ref\ASMPT.Data.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.deps.json
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.runtimeconfig.json
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Domain.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Domain.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.AssemblyReference.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.AssemblyInfoInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.AssemblyInfo.cs
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.CoreCompileInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.CopyComplete
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\refint\ASMPT.Data.dll
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.pdb
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.genruntimeconfig.cache
+D:\Programing\Arash C#\ASMTP\ASMPT.Data\obj\Debug\net7.0\ref\ASMPT.Data.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.deps.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.runtimeconfig.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Data.Contract.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\bin\Debug\net7.0\ASMPT.Domain.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.AssemblyReference.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.AssemblyInfoInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.AssemblyInfo.cs
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.CoreCompileInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.csproj.CopyComplete
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\refint\ASMPT.Data.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.genruntimeconfig.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ref\ASMPT.Data.dll
