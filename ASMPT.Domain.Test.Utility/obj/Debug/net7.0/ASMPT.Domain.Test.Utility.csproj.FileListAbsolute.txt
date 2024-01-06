@@ -13,3 +13,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\refint\ASMPT.Domain.Test.Utility.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ref\ASMPT.Domain.Test.Utility.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Utility\obj\Debug\net7.0\ASMPT.Domain.Test.Utility.sourcelink.json

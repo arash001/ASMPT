@@ -11,6 +11,6 @@ namespace ASMPT.ApplicationService.Contract
         AuthorViewModel GetById(int id);
         void Edit(AuthorDto authorDto);
         void Delete(int id);
-        int? Add(AuthorDto authorDto);
+        int? Add(CreateAuthorDto authorDto);
     }
 }

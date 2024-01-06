@@ -14,7 +14,7 @@ namespace ASMPTUIWinForm
 {
     public partial class frmAuthorU : Form
     {
-        Author authorObj = new Author();
+        CreateAuthorDto CreateAuthor = new CreateAuthorDto();
         List<Book> books = new List<Book>();
         public frmAuthorU()
         {
@@ -25,7 +25,6 @@ namespace ASMPTUIWinForm
         {
             Book book = new Book();
 
-            book.Id = (int.Parse(txtBookId.Text));
             txtBookId.Text = (book.Id + 1).ToString();
 
             book.Title = txtTitel.Text;
@@ -101,11 +100,11 @@ namespace ASMPTUIWinForm
         {
             AuthorService authorService = new AuthorService();
             //  authorObj.id = Convert.ToInt32( txtId.Text);
-            authorObj.name = txtName.Text;
-            authorObj.surename = txtName.Text;
-            authorObj.book = books.Select(b => new Book { Title = b.Title, ISBN = b.ISBN }).ToList();
+            CreateAuthor.name = txtName.Text;
+            CreateAuthor.surename = txtName.Text;
+            CreateAuthor.book = books.Select(b => new Book { Title = b.Title, ISBN = b.ISBN }).ToList();
 
-            var result = await authorService.CreateAuthorAsync(authorObj);
+            var result = await authorService.CreateAuthorAsync(CreateAuthor);
 
             if (result != null)
             {

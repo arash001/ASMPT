@@ -40,22 +40,19 @@ namespace ASMTP.ApplicationService.Tests
             var expectedAuthor = new Author { Id = 42, Name = "Author1", Surename = "surename1" };
 
 
-            var authorService = new AuthorService(_authorRepository, _mapper, _logger, _unitOfWork );
-            var authorDto = new AuthorDto
+            var authorService = new AuthorService(_authorRepository, _mapper, _logger, _unitOfWork);
+            var authorDto = new CreateAuthorDto
             {
-                Id = 1,
                 Name = "Author1",
                 Surename = "surename1",
-                Book = new List<BookDto>()
+                Book = new List<CreateBookDto>()
 
                 {
-                            new BookDto()
+                            new CreateBookDto()
                             {
-                                Id=1,
                                 ISBN = "4897324",
                                 Title = "Title",
-                                AuthorId=1,
-                            },
+                                                            },
 
                         }
             };
@@ -91,19 +88,16 @@ namespace ASMTP.ApplicationService.Tests
         {
             // Arrange
             var authorService = new AuthorService(_authorRepository, _mapper, _logger, _unitOfWork);
-            var authorDto = new AuthorDto
+            var authorDto = new CreateAuthorDto
             {
-                Id = 1,
                 Name = "Author1",
                 Surename = "surename1",
-                Book = new List<BookDto>()
+                Book = new List<CreateBookDto>()
                 {
-                    new BookDto()
+                    new CreateBookDto()
                     {
-                        Id=1,
                         ISBN = "4897324",
                         Title = "Title",
-                        AuthorId=1,
                     },
                 }
             };
@@ -154,7 +148,7 @@ namespace ASMTP.ApplicationService.Tests
         //    Assert.NotNull(result);
         //    Assert.Same(authorViewModel, result);
 
-       // }
+        // }
 
 
 

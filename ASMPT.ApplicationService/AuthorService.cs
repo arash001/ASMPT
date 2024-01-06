@@ -27,21 +27,21 @@ namespace ASMPT.ApplicationService
             _logger = logger;
             _unitOfWork = unitOfWork;
         }
-        public int? Add(AuthorDto authorDto)
+        public int? Add(CreateAuthorDto createAuthorDto)
         {
-            _logger.LogInformation("Start Author repositoy add "+ authorDto);
+            _logger.LogInformation("Start Author repositoy add "+ createAuthorDto);
             try
             {
-                var author = _mapper.Map<Author>(authorDto);
+                var author = _mapper.Map<Author>(createAuthorDto);
                 _authorRepository.Add(author);
 
-                _logger.LogInformation("Start Author repositoy add " + authorDto);
+                _logger.LogInformation("Start Author repositoy add " + createAuthorDto);
                 _unitOfWork.Commit();
                 return author.Id;
             }
             catch (Exception ex )
             {
-                _logger.LogError("Error Author repositoy add " + authorDto, ex.Message);
+                _logger.LogError("Error Author repositoy add " + createAuthorDto, ex.Message);
                 return null;
                 //throw ex;
             }

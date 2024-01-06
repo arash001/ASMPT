@@ -36,12 +36,12 @@ namespace ASMPTUIWinForm.Service
             throw new Exception($"Failed to fetch data. Status code: {response.StatusCode}");
         }
 
-        public async Task<ApiResponseDto> CreateAuthorAsync(Author author)
+        public async Task<ApiResponseDto> CreateAuthorAsync(CreateAuthorDto createAuthorDto)
         {
             try
             {
                 // Serialize the Author object to JSON
-                string jsonContent = JsonConvert.SerializeObject(author);
+                string jsonContent = JsonConvert.SerializeObject(createAuthorDto);
 
                 // Create a StringContent with the JSON data
                 StringContent content = new StringContent(jsonContent, Encoding.UTF8, "application/json");

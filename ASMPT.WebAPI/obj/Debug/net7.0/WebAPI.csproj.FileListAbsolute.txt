@@ -95,3 +95,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.WebAPI\obj\Debug\net7.0\refint\WebAPI.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.WebAPI\obj\Debug\net7.0\WebAPI.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.WebAPI\obj\Debug\net7.0\WebAPI.sourcelink.json

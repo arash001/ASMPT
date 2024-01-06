@@ -49,3 +49,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\refint\ASMPT.Data.XML.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ref\ASMPT.Data.XML.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data.XML\obj\Debug\net7.0\ASMPT.Data.XML.sourcelink.json

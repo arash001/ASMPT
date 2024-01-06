@@ -61,3 +61,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService\obj\Debug\net7.0\ASMPT.Applica
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService\obj\Debug\net7.0\refint\ASMPT.ApplicationService.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService\obj\Debug\net7.0\ASMPT.ApplicationService.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService\obj\Debug\net7.0\ref\ASMPT.ApplicationService.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService\obj\Debug\net7.0\ASMPT.ApplicationService.sourcelink.json

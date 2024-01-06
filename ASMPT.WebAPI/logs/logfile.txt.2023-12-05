@@ -1,6 +1,0 @@
-2023-12-05 23:47:05,635  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (4ms) [Parameters=[@__studentId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SELECT [b].[Id], [b].[BookId], [b].[EndDate], [b].[StartDate], [b].[StudentId], [b0].[Id], [b0].[AuthorId], [b0].[ISBN], [b0].[Title]
-FROM [Borrows] AS [b]
-INNER JOIN [Books] AS [b0] ON [b].[BookId] = [b0].[Id]
-WHERE [b].[StudentId] = @__studentId_0
- 

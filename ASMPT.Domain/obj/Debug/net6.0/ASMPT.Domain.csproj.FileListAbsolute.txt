@@ -33,3 +33,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\refint\ASMPT.Domain.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ref\ASMPT.Domain.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain\obj\Debug\net6.0\ASMPT.Domain.sourcelink.json

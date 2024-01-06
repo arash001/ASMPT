@@ -322,3 +322,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Unit\obj\Debug\net7.0\refint\ASMPT.Do
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Unit\obj\Debug\net7.0\ASMPT.Domain.Test.Unit.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Unit\obj\Debug\net7.0\ASMPT.Domain.Test.Unit.genruntimeconfig.cache
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Unit\obj\Debug\net7.0\ref\ASMPT.Domain.Test.Unit.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Domain.Test.Unit\obj\Debug\net7.0\ASMPT.Domain.Test.Unit.sourcelink.json

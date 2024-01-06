@@ -55,3 +55,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\refint\ASMPT.Data.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.genruntimeconfig.cache
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ref\ASMPT.Data.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.Data\obj\Debug\net7.0\ASMPT.Data.sourcelink.json

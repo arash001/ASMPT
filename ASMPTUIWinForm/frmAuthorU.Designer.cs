@@ -53,10 +53,9 @@
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(439, 69);
-            btnSave.Margin = new Padding(2);
+            btnSave.Location = new Point(627, 121);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(78, 25);
+            btnSave.Size = new Size(111, 42);
             btnSave.TabIndex = 0;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
@@ -65,10 +64,9 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(32, 55);
-            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Location = new Point(47, 92);
             label1.Name = "label1";
-            label1.Size = new Size(39, 15);
+            label1.Size = new Size(59, 25);
             label1.TabIndex = 1;
             label1.Text = "Name";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -76,55 +74,51 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(236, 31);
-            label2.Margin = new Padding(2, 0, 2, 0);
+            label2.Location = new Point(10, 44);
             label2.Name = "label2";
-            label2.Size = new Size(65, 15);
+            label2.Size = new Size(96, 25);
             label2.TabIndex = 2;
             label2.Text = "Nachname";
             // 
             // txtName
             // 
-            txtName.Location = new Point(90, 55);
-            txtName.Margin = new Padding(2);
+            txtName.Location = new Point(129, 92);
             txtName.Name = "txtName";
-            txtName.Size = new Size(106, 23);
+            txtName.Size = new Size(150, 31);
             txtName.TabIndex = 3;
             // 
             // txtLastname
             // 
-            txtLastname.Location = new Point(320, 26);
-            txtLastname.Margin = new Padding(2);
+            txtLastname.Location = new Point(129, 44);
             txtLastname.Name = "txtLastname";
-            txtLastname.Size = new Size(106, 23);
+            txtLastname.Size = new Size(150, 31);
             txtLastname.TabIndex = 4;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(52, 26);
-            label3.Margin = new Padding(2, 0, 2, 0);
+            label3.Location = new Point(398, 19);
             label3.Name = "label3";
-            label3.Size = new Size(18, 15);
+            label3.Size = new Size(30, 25);
             label3.TabIndex = 5;
             label3.Text = "ID";
             label3.TextAlign = ContentAlignment.TopCenter;
+            label3.Visible = false;
             // 
             // txtId
             // 
-            txtId.Location = new Point(90, 23);
-            txtId.Margin = new Padding(2);
+            txtId.Location = new Point(453, 14);
             txtId.Name = "txtId";
-            txtId.Size = new Size(106, 23);
+            txtId.Size = new Size(150, 31);
             txtId.TabIndex = 6;
+            txtId.Visible = false;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(41, 50);
-            label4.Margin = new Padding(2, 0, 2, 0);
+            label4.Location = new Point(62, 83);
             label4.Name = "label4";
-            label4.Size = new Size(30, 15);
+            label4.Size = new Size(44, 25);
             label4.TabIndex = 7;
             label4.Text = "Title";
             // 
@@ -139,21 +133,18 @@
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(txtTitel);
             groupBox1.Controls.Add(label4);
-            groupBox1.Location = new Point(8, 96);
-            groupBox1.Margin = new Padding(2);
+            groupBox1.Location = new Point(11, 160);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(2);
-            groupBox1.Size = new Size(531, 107);
+            groupBox1.Size = new Size(780, 178);
             groupBox1.TabIndex = 8;
             groupBox1.TabStop = false;
             groupBox1.Text = "book";
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(236, 47);
-            btnDelete.Margin = new Padding(2);
+            btnDelete.Location = new Point(337, 78);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(78, 25);
+            btnDelete.Size = new Size(111, 42);
             btnDelete.TabIndex = 13;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
@@ -161,10 +152,9 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(236, 20);
-            btnAdd.Margin = new Padding(2);
+            btnAdd.Location = new Point(337, 33);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(78, 25);
+            btnAdd.Size = new Size(111, 42);
             btnAdd.TabIndex = 12;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
@@ -172,47 +162,42 @@
             // 
             // txtBookId
             // 
-            txtBookId.Location = new Point(88, 20);
-            txtBookId.Margin = new Padding(2);
+            txtBookId.Location = new Point(129, 33);
             txtBookId.Name = "txtBookId";
-            txtBookId.Size = new Size(106, 23);
+            txtBookId.Size = new Size(150, 31);
             txtBookId.TabIndex = 11;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(50, 18);
-            label6.Margin = new Padding(2, 0, 2, 0);
+            label6.Location = new Point(76, 30);
             label6.Name = "label6";
-            label6.Size = new Size(18, 15);
+            label6.Size = new Size(30, 25);
             label6.TabIndex = 7;
             label6.Text = "ID";
             label6.TextAlign = ContentAlignment.TopCenter;
             // 
             // txtIsbn
             // 
-            txtIsbn.Location = new Point(88, 79);
-            txtIsbn.Margin = new Padding(2);
+            txtIsbn.Location = new Point(129, 132);
             txtIsbn.Name = "txtIsbn";
-            txtIsbn.Size = new Size(106, 23);
+            txtIsbn.Size = new Size(150, 31);
             txtIsbn.TabIndex = 10;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(41, 78);
-            label5.Margin = new Padding(2, 0, 2, 0);
+            label5.Location = new Point(56, 130);
             label5.Name = "label5";
-            label5.Size = new Size(32, 15);
+            label5.Size = new Size(50, 25);
             label5.TabIndex = 9;
             label5.Text = "ISBN";
             // 
             // txtTitel
             // 
-            txtTitel.Location = new Point(90, 49);
-            txtTitel.Margin = new Padding(2);
+            txtTitel.Location = new Point(129, 82);
             txtTitel.Name = "txtTitel";
-            txtTitel.Size = new Size(106, 23);
+            txtTitel.Size = new Size(150, 31);
             txtTitel.TabIndex = 8;
             // 
             // groupBox2
@@ -223,11 +208,9 @@
             groupBox2.Controls.Add(label2);
             groupBox2.Controls.Add(label3);
             groupBox2.Controls.Add(txtLastname);
-            groupBox2.Location = new Point(8, 7);
-            groupBox2.Margin = new Padding(2);
+            groupBox2.Location = new Point(11, 12);
             groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(2);
-            groupBox2.Size = new Size(531, 85);
+            groupBox2.Size = new Size(780, 152);
             groupBox2.TabIndex = 9;
             groupBox2.TabStop = false;
             groupBox2.Text = "Author";
@@ -235,23 +218,21 @@
             // dgvBook
             // 
             dgvBook.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBook.Location = new Point(8, 207);
-            dgvBook.Margin = new Padding(2);
+            dgvBook.Location = new Point(11, 344);
             dgvBook.Name = "dgvBook";
             dgvBook.RowHeadersWidth = 62;
             dgvBook.RowTemplate.Height = 33;
-            dgvBook.Size = new Size(531, 178);
+            dgvBook.Size = new Size(780, 342);
             dgvBook.TabIndex = 10;
             // 
             // frmAuthorU
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(562, 386);
+            ClientSize = new Size(803, 691);
             Controls.Add(dgvBook);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Margin = new Padding(2);
             Name = "frmAuthorU";
             Text = "frmAuthorU";
             groupBox1.ResumeLayout(false);

@@ -49,3 +49,4 @@ D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMP
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\refint\ASMPT.ApplicationService.Contract.dll
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.pdb
 D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ref\ASMPT.ApplicationService.Contract.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPT.ApplicationService.Contract\obj\Debug\net7.0\ASMPT.ApplicationService.Contract.sourcelink.json

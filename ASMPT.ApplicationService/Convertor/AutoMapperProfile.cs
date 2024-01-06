@@ -18,6 +18,9 @@ namespace ASMPT.ApplicationService.Convertor
                 CreateMap<StudentDto, Student>().ReverseMap();
 
                 CreateMap<AuthorDto, Author>().ReverseMap();
+                CreateMap<CreateAuthorDto, Author>().ReverseMap();
+                CreateMap<CreateBookDto, Book>().ReverseMap();
+                
 
                 CreateMap<BookDto, Book>().ReverseMap();
                 CreateMap<Borrow, BorrowViewModel>().ReverseMap();

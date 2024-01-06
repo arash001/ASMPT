@@ -29,11 +29,11 @@ namespace WebAPI.Controllers
 
         [Route("create")]
         [HttpPost]
-        public async Task<ActionResult> CreateAuthor([FromBody] AuthorDto authorDto)
+        public async Task<ActionResult> CreateAuthor([FromBody] CreateAuthorDto createAuthorDto)
         {
             try
             {
-                int? result = _authorService.Add(authorDto);
+                int? result = _authorService.Add(createAuthorDto);
 
                 if (result.HasValue)
                 {
