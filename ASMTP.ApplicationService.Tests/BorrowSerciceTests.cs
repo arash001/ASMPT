@@ -105,45 +105,45 @@ namespace ASMTP.ApplicationService.Tests
         //    _mapper.Received(1).Map<List<BorrowViewModel>>(borrowList);
         //}
 
-        //[Fact]
-        //public  Task GetBorrowByStudentIdAsync_ValidStudentId_ReturnsMappedViewModelList()
-        //{
-        //    // Arrange
-        //    var studentId = 1;
-        //    var borrowList = new List<Borrow> { new Borrow() { Id=1, BookId=1002, StartDate=DateTime.Now.AddDays(1),EndDate=DateTime.Now.AddDays(20), StudentId=1} };
-        //    _borrowRepository.GetBorrowByStudent(studentId).Returns(borrowList);
+        [Fact]
+        public void  GetBorrowByStudentIdAsync_ValidStudentId_ReturnsMappedViewModelList()
+        {
+            // Arrange
+            var studentId = 1;
+            var borrowList = new List<Borrow> { new Borrow() { Id = 1, BookId = 1, StartDate = DateTime.Now.AddDays(1), EndDate = DateTime.Now.AddDays(20), StudentId = 1 } };
+            _borrowRepository.GetBorrowByStudent(studentId).Returns(borrowList);
 
-        //    var mappedViewModelList = new List<BorrowViewModel> { new BorrowViewModel() { Id = 1, BookId = 1002, StartDate = DateTime.Now.AddDays(1), EndDate = DateTime.Now.AddDays(20), StudentId = 1 } };
-        //    _mapper.Map<List<BorrowViewModel>>(borrowList).Returns(mappedViewModelList);
+            var mappedViewModelList = new List<BorrowViewModel> { new BorrowViewModel() { Id = 1, BookId = 1, StartDate = DateTime.Now.AddDays(1), EndDate = DateTime.Now.AddDays(20), StudentId = 1 } };
+            _mapper.Map<List<BorrowViewModel>>(borrowList).Returns(mappedViewModelList);
 
-        //    var service = new BorrowService(_authorRepository, _mapper, _studentRepository, _bookRepository, _borrowRepository, _unitOfWork, _logger);
+            var service = new BorrowService(_authorRepository, _mapper, _studentRepository, _bookRepository, _borrowRepository, _unitOfWork, _logger);
 
-        //    // Act
-        //    var result =  service.GetBorrowByStudentId(studentId);
+            // Act
+            var result = service.GetBorrowByStudentId(studentId);
 
-        //    // Assert
-        //    Assert.Same(mappedViewModelList, result);
-        //}
+            // Assert
+            Assert.Same(mappedViewModelList, result);
+        }
 
-        //[Fact]
-        //public  Task GetBorrowByBookIdAsync_ValidStudentId_ReturnsMappedViewModelList()
-        //{
-        //    // Arrange
-        //    var bookId = 1002;
-        //    var borrowList = new List<Borrow> { new Borrow() { Id = 1, BookId = 1002, StartDate = DateTime.Now.AddDays(1), EndDate = DateTime.Now.AddDays(20), StudentId = 1 } };
-        //    _borrowRepository.GetBorrowByStudent(bookId).Returns(borrowList);
+        [Fact]
+        public void GetBorrowByBookIdAsync_ValidStudentId_ReturnsMappedViewModelList()
+        {
+            // Arrange
+            var bookId = 1;
+            var borrowList = new List<Borrow> { new Borrow() { Id = 1, BookId = bookId, StartDate = DateTime.Now.AddDays(1), EndDate = DateTime.Now.AddDays(20), StudentId = 1 } };
+            _borrowRepository.GetBorrowByBook(bookId).Returns(borrowList);
 
-        //    var mappedViewModelList = new List<BorrowViewModel> { new BorrowViewModel() { Id = 1, BookId = 1002, StartDate = DateTime.Now.AddDays(1), EndDate = DateTime.Now.AddDays(20), StudentId = 1 } };
-        //    _mapper.Map<List<BorrowViewModel>>(borrowList).Returns(mappedViewModelList);
+            var mappedViewModelList = new List<BorrowViewModel> { new BorrowViewModel() { Id = 1, BookId = bookId, StartDate = DateTime.Now.AddDays(1), EndDate = DateTime.Now.AddDays(20), StudentId = 1 } };
+            _mapper.Map<List<BorrowViewModel>>(borrowList).Returns(mappedViewModelList);
 
-        //    var service = new BorrowService(_authorRepository, _mapper, _studentRepository, _bookRepository, _borrowRepository, _unitOfWork, _logger);
+            var service = new BorrowService(_authorRepository, _mapper, _studentRepository, _bookRepository, _borrowRepository, _unitOfWork, _logger);
 
-        //    // Act
-        //    var result =  service.GetBorrowByBookId(bookId);
+            // Act
+            var result = service.GetBorrowByBookId(bookId);
 
-        //    // Assert
-        //    Assert.Same(mappedViewModelList, result);
-        //}
+            // Assert
+            Assert.Same(mappedViewModelList, result);
+        }
 
 
     }

@@ -1,0 +1,57 @@
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.exe
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.deps.json
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.runtimeconfig.json
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.dll
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.pdb
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.AssemblyReference.cache
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.Form1.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmAuthorL.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmAuthorU.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBookL.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBookU.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBorrowL.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBorrowU.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmStudentL.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmStudentU.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.Properties.Resources.resources
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.GenerateResource.cache
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.AssemblyInfoInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.AssemblyInfo.cs
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.CoreCompileInputs.cache
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.CopyComplete
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.dll
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\refint\ASMPTUIWinForm.dll
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.pdb
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.genruntimeconfig.cache
+D:\Programing\Arash C#\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ref\ASMPTUIWinForm.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.exe
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.deps.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.runtimeconfig.json
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\ASMPTUIWinForm.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.AssemblyReference.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.Form1.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmAuthorL.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmAuthorU.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBookL.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBookU.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBorrowL.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmBorrowU.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmStudentL.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.frmStudentU.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.Properties.Resources.resources
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.GenerateResource.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.AssemblyInfoInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.AssemblyInfo.cs
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.CoreCompileInputs.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.csproj.CopyComplete
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\refint\ASMPTUIWinForm.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.pdb
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.genruntimeconfig.cache
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ref\ASMPTUIWinForm.dll
+D:\Git\Arash-Asmtp\ASMTP\ASMPTUIWinForm\obj\Debug\net7.0-windows\ASMPTUIWinForm.sourcelink.json

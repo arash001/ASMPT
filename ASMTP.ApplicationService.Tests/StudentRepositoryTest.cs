@@ -13,23 +13,7 @@ public class StudentRepositoryTests
 {
 
  
-        //[Fact]
-        //public async Task GetByIdAsync_Should_Return_Student()
-        //{
-        //    // Arrange
-        //    var studentId = 1;
-        //    var expectedStudent = new Student { Id = studentId, Name = "John", Surename = "Doe", Email = "john.doe@example.com" };
-
-        //    var repository = Substitute.For<IStudentRepository>();
-        //    repository.GetById(studentId).Returns(expectedStudent);
-
-        //    // Act
-        //    var actualStudent = await repository.GetById(studentId);
-
-        //    // Assert
-        //    Assert.Equal(expectedStudent, actualStudent);
-        //}
-
+   
         [Fact]
         public void GetAll_Should_Return_List_Of_Students()
         {

@@ -4,6 +4,7 @@ using ASMPT.Data.Repository;
 using ASMPT.Domain;
 using ASMTP.Data;
 using AutoMapper;
+using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
@@ -41,7 +42,8 @@ namespace ASMTP.ApplicationService.Tests
             var result =  authorRepository.GetAll();
 
             // Assert
-            Assert.Equal(expectedAuthors, result);
+            expectedAuthors.Should().BeEquivalentTo(result);
+            //Assert.Equal(expectedAuthors, result);
         }
 
 
@@ -62,7 +64,7 @@ namespace ASMTP.ApplicationService.Tests
                     new Book()
                     {
                         Id=1,
-                        ISBN = "4897324",
+                        ISBN = "0471958697",
                         Title = "Title",
                         AuthorId=1,
                     },
@@ -101,7 +103,21 @@ namespace ASMTP.ApplicationService.Tests
         public void Edit_Should_EditAuthor()
         {
             // Arrange
-            var author = new Author { Id = 1, Name = "John" , Surename="Doe", 
+            var author = new Author
+            {
+                Id = 1,
+                Name = "Author1",
+                Surename = "surename1",
+                Book = new List<Book>()
+                {
+                    new Book()
+                    {
+                        Id=1,
+                        ISBN = "0471958697",
+                        Title = "Title",
+                        AuthorId=1,
+                    },
+                }
             };
             var logger = Substitute.For<ILogger<AuthorRepository>>();
             var repository = new AuthorRepository(_context, logger);
@@ -116,6 +132,29 @@ namespace ASMTP.ApplicationService.Tests
             dbContext.Entry(author).Received(1).State = EntityState.Modified;
 
 
+        }
+
+
+        [Fact]
+        public async Task Delete_Author_WithValidId_ShouldDeleteAuthor()
+        {
+            // Arrange
+            var context = Substitute.For<DbModelContext>();
+            var logger = Substitute.For<ILogger<AuthorRepository>>();
+            var repository = new AuthorRepository(context, logger);
+
+            var authorId = 1;
+            var author = new Author { Id = authorId, Name = "name" };
+
+            context.Set<Author>().FindAsync(authorId).Returns(ValueTask.FromResult(author));
+
+
+            // Act
+            repository.Delete(authorId);
+
+            // Assert
+            await context.Received(1).SaveChangesAsync(); // Ensure SaveChangesAsync is called once
+            Assert.Equal(EntityState.Deleted, context.Received(1).Entry(author).State); // Ensure EntityState is set to Deleted
         }
 
         //[Fact]

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
+using ASMPT.ApplicationService.exception;
 
 namespace ASMPT.ApplicationService
 {
@@ -29,13 +30,20 @@ namespace ASMPT.ApplicationService
         }
         public int? Add(CreateAuthorDto createAuthorDto)
         {
+
+            if (createAuthorDto is null )
+            {
+                throw new CreateAuthorException("Invalid Author Paramter!!");
+            }
+
             _logger.LogInformation("Start Author repositoy add "+ createAuthorDto);
+            
             try
             {
                 var author = _mapper.Map<Author>(createAuthorDto);
                 _authorRepository.Add(author);
-
-                _logger.LogInformation("Start Author repositoy add " + createAuthorDto);
+             
+                _logger.LogInformation("Start Author repositoy add with New Id" + author.Id);
                 _unitOfWork.Commit();
                 return author.Id;
             }
@@ -49,13 +57,35 @@ namespace ASMPT.ApplicationService
 
         public void Delete(int id)
         {
+            this._logger.LogInformation("Start getting Author with id: {id}", id);
+            var author = _authorRepository.GetById(id);
+            if (author is not null)
+            {
+                throw new CreateAuthorException("Invalid Author Id!!");
+            }
             _authorRepository.Delete(id);
+            _unitOfWork.Commit();
+            this._logger.LogInformation($"Deleted an author repository with Id:{id}");
         }
 
         public void Edit(AuthorDto authorDto)
         {
+            this._logger.LogInformation("Start getting Update Author...");
+          
+            if (authorDto is not null)
+            {
+                throw new EditAuthorException();
+            }
+
             var author = _mapper.Map<Author>(authorDto);
+            if (author is not null )
+                this._logger.LogInformation($"Updated the author in repository is Mapped.");
+
+
             _authorRepository.Edit(author);
+            _unitOfWork.Commit();
+            this._logger.LogInformation($"Updated an author repository.");
+
         }
 
         public AuthorViewModel GetById(int id)

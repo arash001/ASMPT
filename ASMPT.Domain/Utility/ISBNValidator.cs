@@ -7,25 +7,23 @@ using System.Threading.Tasks;
 namespace ASMPT.Domain.Utility
 {
     using System;
-
     public static class ISBNValidator
     {
         public static bool IsValidISBN(string isbn)
         {
-            // Remove any hyphens or spaces in the ISBN
-            isbn = isbn.Replace("-", "").Replace(" ", "");
+            string cleanedISBN = new string(isbn.Where(char.IsDigit).ToArray());
 
-            if (isbn.Length == 10)
+            if (cleanedISBN.Length == 10)
             {
-                return IsValidISBN10(isbn);
+                return IsValidISBN10(cleanedISBN);
             }
-            else if (isbn.Length == 13)
+            else if (cleanedISBN.Length == 13)
             {
-                return IsValidISBN13(isbn);
+                return IsValidISBN13(cleanedISBN);
             }
             else
             {
-                return false; // ISBN must be either 10 or 13 digits
+                return false; 
             }
         }
 
@@ -41,24 +39,25 @@ namespace ASMPT.Domain.Utility
                 }
                 else
                 {
-                    return false; // Invalid character found
+                    return false; 
                 }
             }
 
-            if (isbn[9] == 'X')
+            char lastChar = isbn[9];
+            if (lastChar == 'X' || lastChar == 'x')
             {
                 checksum += 10;
             }
             else
             {
                 int lastDigit;
-                if (int.TryParse(isbn[9].ToString(), out lastDigit))
+                if (int.TryParse(lastChar.ToString(), out lastDigit))
                 {
                     checksum += lastDigit;
                 }
                 else
                 {
-                    return false; // Invalid character found
+                    return false; 
                 }
             }
 
@@ -77,7 +76,7 @@ namespace ASMPT.Domain.Utility
                 }
                 else
                 {
-                    return false; // Invalid character found
+                    return false; 
                 }
             }
 
@@ -88,9 +87,11 @@ namespace ASMPT.Domain.Utility
             }
             else
             {
-                return false; // Invalid character found
+                return false; 
             }
         }
     }
+
+
 }
 

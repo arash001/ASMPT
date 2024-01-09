@@ -6,18 +6,20 @@ namespace ASMPT.Domain
 {
     public class StundetTests
     {
-        private readonly StudentBuilder _studentBuilder;
-
-        public StundetTests(StudentBuilder studentBuilder)
-        {
-            _studentBuilder = studentBuilder;
-        }
-
         public static IEnumerable<object[]> InvalidStringName()
         {
             yield return new object[] { "" };
             yield return new object[] { string.Empty };
         }
+
+        public StundetTests()
+        {
+            _studentBuilder =new  StudentBuilder();
+        }
+
+
+        private readonly StudentBuilder _studentBuilder;
+
 
         [Theory]
         [MemberData(nameof(InvalidStringName))]

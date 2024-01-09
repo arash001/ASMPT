@@ -27,16 +27,12 @@ namespace ASMPT.Data.Repository
                 this._context.Borrows.Add(borrow);
                 this._context.SaveChanges();
 
-                // Return the ID of the newly created borrow.
                 return borrow.Id;
             }
             catch (Exception ex)
             {
-                // Log the exception or handle it as appropriate.
                 _logger.LogError("An error occurred while creating a borrow.", ex);
                 return 0;
-                // Handle the exception or rethrow it if needed.
-               // throw new Exception("An error occurred while creating a borrow.", ex);
             }
         }
 

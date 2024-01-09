@@ -30,7 +30,7 @@ namespace ASMPT.Domain
         private void SetProperties(int id, string title, string isbn, int authorId, Author? author)
         {
             
-            Id = id;
+             Id = id;
             Title = title;
             ISBN = isbn;
             AuthorId = authorId;

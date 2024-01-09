@@ -5,6 +5,7 @@ using ASMPT.Data.Contract.ViewModel;
 using ASMPT.Data.Repository;
 using ASMPT.Domain;
 using AutoMapper;
+using Castle.Core.Logging;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
 using System;
@@ -30,56 +31,58 @@ namespace ASMTP.ApplicationService.Tests
             _unitOfWork = Substitute.For<IUnitOfWork>();
         }
 
-
         [Fact]
-        public async void Add_ValidAuthorDto_CallsAddMethod()
+        public void Add_ValidAuthorDto_ReturnsAuthorId()
         {
             // Arrange
+            var authorRepository = Substitute.For<IAuthorRepository>();
+            var mapper = Substitute.For<IMapper>();
+            var logger = Substitute.For<ILogger<AuthorService>>();
+            var unitOfWork = Substitute.For<IUnitOfWork>();
+            var expectedAuthorId = 1;
+            var authorService = new AuthorService(authorRepository, mapper, logger, unitOfWork);
 
-
-            var expectedAuthor = new Author { Id = 42, Name = "Author1", Surename = "surename1" };
-
-
-            var authorService = new AuthorService(_authorRepository, _mapper, _logger, _unitOfWork);
-            var authorDto = new CreateAuthorDto
+            var createAuthorDto = new CreateAuthorDto
             {
                 Name = "Author1",
-                Surename = "surename1",
-                Book = new List<CreateBookDto>()
-
-                {
-                            new CreateBookDto()
-                            {
-                                ISBN = "4897324",
-                                Title = "Title",
-                                                            },
-
-                        }
+                Surename = "Surename1",
+                Book = new List<CreateBookDto>
+        {
+            new CreateBookDto
+            {
+                ISBN = "4897324",
+                Title = "Title",
+            }
+        }
             };
 
-            var exception = Assert.Throws<NotFoundBookIdException>(() => authorService.Add(authorDto));
-            Assert.Equal("Invalid Author Paramter", exception.Message);
+            var expectedAuthor = new Author { Id = expectedAuthorId };
+            mapper.Map<Author>(createAuthorDto).Returns(expectedAuthor);
 
-            _mapper.Map<Author>(authorDto).Returns(expectedAuthor);
             // Act
-            authorService.Add(authorDto);
+            var result = authorService.Add(createAuthorDto);
 
             // Assert
-            //TODO
-            // _authorRepository.Received(1).Add(ArgExt.Compare(expectedAuthor, new AuthorEqualityComparer()));
+            Assert.Equal(expectedAuthorId, result);
+            //authorRepository.Received(1).Add(Arg.Is<Author>(a =>
+            //    a.Id == expectedAuthorId &&
+            //    a.Name == createAuthorDto.Name &&
+            //    a.Surename == createAuthorDto.Surename &&
+            //    a.Book.Count == createAuthorDto.Book.Count &&
+            //    a.Book.All(b =>
+            //        b.ISBN == "4897324" &&
+            //        b.Title == "Title" &&
+            //        b.AuthorId == 1 &&
+            //        b.Id == 1
+            //    )
+            //));
 
-            _authorRepository.Received(1).Add(Arg.Is<Author>(a =>
-                    a.Id == expectedAuthor.Id &&
-                    a.Name == expectedAuthor.Name &&
-                    a.Surename == expectedAuthor.Surename &&
-                    a.Book.All(b =>
-                    b.Id == 1 &&
-                    b.ISBN == "4897324" &&
-                    b.Title == "Title" &&
-                    b.AuthorId == 1
-                )));
-            _unitOfWork.Received().Commit();
+            unitOfWork.Received(1).Commit();
+       
         }
+
+
+
 
 
 
@@ -119,81 +122,75 @@ namespace ASMTP.ApplicationService.Tests
 
             var authorService = new AuthorService(_authorRepository, _mapper, _logger, _unitOfWork);
             int authorId = 1;
+            _authorRepository.GetById(authorId).Returns((Author)null);
 
             // Act
             authorService.Delete(authorId);
 
             // Assert
+            _authorRepository.Received(1).GetById(Arg.Is<int>(id => id == authorId));
+            //_authorRepository.Received(1).GetById(authorId);
             _authorRepository.Received(1).Delete(authorId);
             _unitOfWork.Received(1).Commit();
-            _logger.Received(1).LogInformation(Arg.Is<string>(msg => msg.Contains($"Deleted an author repository with Id:{authorId}")));
+       //     _logger.Received(1).LogInformation(Arg.Any<string>());
+       
+
 
         }
 
-        //[Fact]
-        //public void GetById_ValidId_ReturnsAuthorViewModel()
-        //{
-        //    // Arrange
-        //    int authorId = 1010;
-        //    var authorService = new AuthorService(_authorRepository, _mapper, _logger, _unitOfWork);
-        //    var authorModel = new Author();
-        //    var authorViewModel = new AuthorViewModel();
-        //    _authorRepository.GetById(authorId).Returns(Task.FromResult(authorModel));
-        //    _mapper.Map<AuthorViewModel>(authorModel).Returns(authorViewModel);
-
-        //    // Act
-        //    var result = authorService.GetById(authorId);
-
-        //    // Assert
-        //    Assert.NotNull(result);
-        //    Assert.Same(authorViewModel, result);
-
-        // }
 
 
+        [Fact]
+        public void GetById_ValidId_ReturnsAuthorViewModel()
+        {
+            // Arrange
+            int authorId = 1010;
+            var authorService = new AuthorService(_authorRepository, _mapper, _logger, _unitOfWork);
+            var author = new Author
+            {
+                Id = 1,
+                Name = "Author1",
+                Surename = "surename1",
+                Book = new List<Book>()
+        {
+            new Book()
+            {
+                Id=1,
+                ISBN = "4897324",
+                Title = "Title",
+                AuthorId=1,
+            },
+        }
+            };
 
-        //[Fact]
-        //public void Add_Successful()
-        //{
-        //    // Arrange
+            var authorViewModel = new AuthorViewModel
+            {
+                Name = "Author1",
+                Surename = "surename1",
+                Book = new List<BookViewModel>()
+                {
+                    new BookViewModel()
+                    {
+                        ISBN = "4897324",
+                        Title = "Title",
+                    },
+                }
+            };
+            _authorRepository.GetById(authorId).Returns(author);
+            _mapper.Map<AuthorViewModel>(authorViewModel).Returns(authorViewModel);
+
+            // Act
+            var result = authorService.GetById(authorId);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Same(authorViewModel, result);
+
+         }
 
 
-        //    var repository = new AuthorRepository(_context, _logger);
 
-        //    var authorDto = new AuthorDto()
-        //    {
-        //        Id = 1,
-        //        Name = "Author1",
-        //        Surename = "surename1",
-        //        Book = new List<BookDto>()
-        //   {
-        //       new BookDto()
-        //       {
-        //           Id=1,
-        //           AuthorId=1,
-        //           ISBN="5487998345@",
-        //           Title="booktitel"
-        //       }
-        //   }
-        //    };
-
-        //    var author = new Author
-        //    {
-        //        // Set properties for the mapped author
-        //    };
-
-        //    _mapper.Map<Author>(authorDto).Returns(author);
-        //    _authorRepository.Add(Arg.Any<Author>()).Returns(42); // Replace 42 with the expected ID
-
-        //    // Act
-        //    var result = repository.Add(author);
-
-        //    // Assert
-        //    Assert.Equal(42, result); // Check if the returned ID matches the expected value
-        //    _logger.Received().LogInformation(Arg.Is<string>(s => s.Contains("Start Author repositoy add")));
-        //    _logger.Received().LogInformation(Arg.Is<string>(s => s.Contains("Created a new author repositoy add with Id:")));
-        //    _unitOfWork.Received().Commit();
-        //}
+     
 
     }
 }

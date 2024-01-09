@@ -27,6 +27,12 @@ namespace ASMPT.Domain.Test.Utility
             return this;
         }
 
+        public BookBuilder WithISBN(string isbn)
+        {
+            this._isbn = isbn;
+            return this;
+        }
+
 
         public BookBuilder WithAuthorId(int id)
         {

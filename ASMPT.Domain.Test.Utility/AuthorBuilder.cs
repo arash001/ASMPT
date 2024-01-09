@@ -4,13 +4,16 @@ namespace ASMPT.Domain.Test.Utility
 {
     public class AuthorBuilder
     {
-private int _id;
+        private int _id;
         private string _surename;
         private string _name;
-
+        private List<Book> _books;
         public AuthorBuilder()
         {
-            
+            _id = 1;
+            _name = "authorname";
+            _surename = "surename";
+            _books = new List<Book>();
         }
 
         public AuthorBuilder WithName(string name)
@@ -26,17 +29,25 @@ private int _id;
         }
 
 
-        public AuthorBuilder WithtId(int id)
+        public AuthorBuilder WithId(int id)
         {
             this._id = id;
+            return this;
+        }
+
+        public AuthorBuilder WithBook(Action<BookBuilder> buildAction)
+        {
+            var bookBuilder = new BookBuilder();
+            buildAction.Invoke(bookBuilder);
+            _books.Add(bookBuilder.Build());
             return this;
         }
 
 
         public Author Build()
         {
-            return new Author(this._id,this._name,this._surename,new List<Book>());
-          
+            return new Author(this._id, this._name, this._surename, _books);
+
         }
     }
 }
